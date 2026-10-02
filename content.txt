@@ -38,9 +38,28 @@ Max linear velocity &  $v_{max}$      & 1.2 m/s \\ \hline
 \subsection{Velocity Control}
 A PID controller regulates wheel velocity, as shown in Fig.~\ref{fig:sys_diag}. The control loop is summarized in Algorithm~\ref{alg:pid}.
 
+\usepackage{svg}
+
 \begin{figure}
     \centering
     \includesvg[width=0.95\linewidth]{img/sys_diag.drawio}
     \caption{Closed-loop velocity control diagram for the differential drive AGV.}
     \label{fig:sys_diag}
 \end{figure}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\begin{algorithm}[!htbp]
+\caption{PID-based Wheel Velocity Control (conceptual)}
+\label{alg:pid}
+\begin{algorithmic}[1]
+\Require Desired velocity $v_d$, current velocity $v$
+\While{vehicle is operating}
+    \State Compute velocity error $e = v_d - v$
+    \State Update integral and derivative terms
+    \State Compute PID output torque
+    \State Apply torque to wheels
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
