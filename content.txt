@@ -19,3 +19,18 @@ where $\omega_R$ and $\omega_L$ are the angular velocities of the right and left
 
 \subsection{AGV Parameters}
 The physical parameters of the AGV are listed in Table~\ref{tab:robot_params}.
+
+\begin{table}[!htbp]
+\caption{AGV Parameters}
+\label{tab:robot_params}
+\centering
+\begin{tabular}{|l|c|l|}
+\hline
+Parameter           & Symbol & Value   \\ \hline
+Wheel radius        & $r$      & 0.06 m  \\
+Wheel separation    & $L$      & 0.35 m  \\
+Vehical mass        & $m$      & 12 kg   \\
+Max motor torque   & $\tau_{max}$       & 2.5 N$\cdot$m \\
+Max linear velocity &  $v_{max}$      & 1.2 m/s \\ \hline
+\end{tabular}
+\end{table}
