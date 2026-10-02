@@ -67,6 +67,8 @@ A PID controller regulates wheel velocity, as shown in Fig.~\ref{fig:sys_diag}. 
 \section{Experimental Setup}
 Fig.~\ref{fig:robot_motion} compares the experimental setup in Fig.~\ref{fig:exp_set} with the simulated trajectory in Fig.~\ref{fig:sim_traj}.
 
+\usepackage[caption=false,font=footnotesize]{subfig}
+
 \begin{figure}[!htbp]
 \centering
 \subfloat[Experimental setup]{\includegraphics[width=0.45\linewidth]{img/exp_set}%
