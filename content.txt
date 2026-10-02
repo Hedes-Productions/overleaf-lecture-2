@@ -11,3 +11,8 @@ Differential drive AGVs have been extensively studied for their simplicity and m
 For a differential drive AGV with wheel radius $r$, the linear velocity is
 
 where $\omega_R$ and $\omega_L$ are the angular velocities of the right and left wheels. The global frame motion is
+
+\begin{align}
+    \dot{x} &= v \cos{\theta}, \\
+    \dot{y} &= v \sin{\theta}.
+\end{align}
