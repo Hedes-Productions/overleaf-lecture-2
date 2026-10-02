@@ -16,3 +16,6 @@ where $\omega_R$ and $\omega_L$ are the angular velocities of the right and left
     \dot{x} &= v \cos{\theta}, \\
     \dot{y} &= v \sin{\theta}.
 \end{align}
+
+\subsection{AGV Parameters}
+The physical parameters of the AGV are listed in Table~\ref{tab:robot_params}.
