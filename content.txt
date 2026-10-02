@@ -34,3 +34,6 @@ Max motor torque   & $\tau_{max}$       & 2.5 N$\cdot$m \\
 Max linear velocity &  $v_{max}$      & 1.2 m/s \\ \hline
 \end{tabular}
 \end{table}
+
+\subsection{Velocity Control}
+A PID controller regulates wheel velocity, as shown in Fig.~\ref{fig:sys_diag}. The control loop is summarized in Algorithm~\ref{alg:pid}.
