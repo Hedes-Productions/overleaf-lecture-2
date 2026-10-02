@@ -66,3 +66,14 @@ A PID controller regulates wheel velocity, as shown in Fig.~\ref{fig:sys_diag}. 
 
 \section{Experimental Setup}
 Fig.~\ref{fig:robot_motion} compares the experimental setup in Fig.~\ref{fig:exp_set} with the simulated trajectory in Fig.~\ref{fig:sim_traj}.
+
+\begin{figure}[!htbp]
+\centering
+\subfloat[Experimental setup]{\includegraphics[width=0.45\linewidth]{img/exp_set}%
+\label{fig:exp_set}}
+\hfil
+\subfloat[Simulated trajectory]{\includegraphics[width=0.45\linewidth]{img/sim_traj}%
+\label{fig:sim_traj}}
+\caption{Experimental and simulated AGV motion comparison.}
+\label{fig:robot_motion}
+\end{figure}
